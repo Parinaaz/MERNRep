@@ -1,0 +1,27 @@
+{
+  "name": "cmuk",
+  "version": "1.0.0",
+  "description": "some",
+  "main": "index.js",
+  "scripts": {
+    "test": "tets",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Parinaaz/MERNRep.git"
+  },
+  "keywords": [
+    "chinmaya"
+  ],
+  "author": "parinaaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Parinaaz/MERNRep/issues"
+  },
+  "homepage": "https://github.com/Parinaaz/MERNRep#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "mongodb": "^2.2.30"
+  }
+}
