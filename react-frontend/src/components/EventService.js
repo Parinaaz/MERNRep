@@ -4,7 +4,7 @@ class EventService{
 	sendData(data)
 	{
 		axios.post('http://localhost:4200/events/add/post',
-			{item: data}).then(function(response){
+			{event: data}).then(function(response){
 			console.log(response);
 
 		}).catch(function(error){
